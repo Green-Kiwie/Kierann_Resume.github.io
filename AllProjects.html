@@ -1,0 +1,375 @@
+<!DOCTYPE HTML>
+<!--
+	Future Imperfect by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Kierann - Self Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="single is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="Resume.html">Kierann Self Projects</a></h1>
+						<nav class="links">
+							<ul>
+								<li><a href="Skills.html">Skills</a></li>
+								<li><a href="Experience.html">Experience</a></li>
+								<li><a href="Education.html">Education</a></li>
+								<li><a href="FindMe.html">Find me!</a></li>
+								<li><a href="https://drive.google.com/file/d/1sDcH2b0NBVxmm0fByV20kPQ1jyfpA6-d/view?usp=sharing" target="_blank">See PDF Resume Instead</a></li>
+							</ul>
+						</nav>
+
+						<nav class="main">
+							<ul>
+								<!--<li class="search">
+									<a class="fa-search" href="#search">Search</a>
+									<form id="search" method="get" action="#">
+										<input type="text" name="query" placeholder="Search" />
+									</form>
+								</li>-->
+								<li class="menu">
+									<a class="fa-bars" href="#menu">Menu</a>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<section id="menu">
+
+						<!-- Search -->
+							<!--
+							<section>
+								<form class="search" method="get" action="#">
+									<input type="text" name="query" placeholder="Search" />
+								</form>
+							</section> 
+							-->
+
+						<!-- Links -->
+							<section>
+								<ul class="links">
+									<li>
+										<a href="Resume.html">
+											<h3>Kierann Chong</h3>
+											<!-- <p>Feugiat tempus veroeros dolor</p> -->
+										</a>
+									</li>
+									<li>
+										<a href="Skills.html">
+											<h3>Skills</h3>
+											<!-- <p>Feugiat tempus veroeros dolor</p> -->
+										</a>
+									</li>
+									<li>
+										<a href="Experience.html">
+											<h3>Experiences</h3>
+											<!-- <p>Feugiat tempus veroeros dolor</p> -->
+										</a>
+									</li>
+									<li>
+										<a href="AllProjects.html">
+											<h3>All Projects (This Page)</h3>
+											<!-- <p>Feugiat tempus veroeros dolor</p> -->
+											<ul class="links1">
+												<li><a href="#NeuralNetwork"> Stock Market Prediction with Neural Network</a></li>
+												<li><a href="#Codeforces"> Competing in Codeforces</a></li>
+												<li><a href="#CDACExcel"> Founding, Organizzing and Developing Excel</a></li>
+												<li><a href="#Syncing"> C++ Data Syncing Software Turned Malware</a></li>
+											</ul>
+										</a>
+									</li>
+									<li>
+										<a href="Education.html">
+											<h3>Education</h3>
+											<!-- <p>Feugiat tempus veroeros dolor</p> -->
+										</a>
+									</li>
+									<li>
+										<a href="FindMe.html">
+											<h3>Find Me!</h3>
+											<!-- <p>Feugiat tempus veroeros dolor</p> -->
+										</a>
+									</li>
+									<li>
+										<a href="https://drive.google.com/file/d/1sDcH2b0NBVxmm0fByV20kPQ1jyfpA6-d/view?usp=sharing" target="_blank">
+											<h3>See PDF Resume</h3>
+											<!-- <p>Feugiat tempus veroeros dolor</p> -->
+										</a>
+									</li>
+								</ul>
+							</section>
+
+						<!-- Actions -->
+							<!--
+							<section>
+								<ul class="actions stacked">
+									<li><a href="#" class="button large fit">Log In</a></li>
+								</ul>
+							</section>
+							-->
+
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<article class="post" id="NeuralNetwork">
+								<header>
+									<div class="title">
+										<h2><a>Stock Market Prediction with Neural Network</a></h2>
+										<!-- <p>10 Winstedt Rd, Singapore 227977</p> -->
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2015-11-01">2023 - 2024</time>
+										<!-- <a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a> -->
+									</div>
+								</header>
+								<para>
+									<div class="text">
+										<p>After reading Marting Pring's "Technical Analysis Explained" book, I wrote a python program with Pandas and yFinance to scan the S&P 500 for candlestick patterns, thereby predicting price movements.<br><br>
+											However, after backtesting my code, it seemed like the algorithm was not profitable. Though the algorithm was relatively accurate, the average loss on mispredictions were more than the average profit.<br><br>
+											I knew that there must be a better way.<br>
+										</p>
+									</div>
+									<div class="sideimage"> 
+										<img src="images/martinpringbookcover.jpg" alt="" />
+									</div>
+								</para>
+								<para>
+									<div class="sideimage">
+										<img src="images/courseracert.png" alt="" />
+									</div>
+									<div class="text">
+										<p>My explorations with technical analysis started right before the emergence of ChatGPT. Experimenting with the capabilities of Large Neural Networks, I thought that Neural Network was the approach to my stock market algorithm. <br><br>
+											I understood the foundations of Neural Networks and other machine learning algorithms by studying the "Advanced Learning Algorithms" Course by DeepLearning.AI.											
+										</p>
+									</div>
+								</para>
+								<para>
+									<div class="text">
+										<p>Upon completing the course, I set up to try out training a Neural Network to predict the S&P 500 stocks. <br><br>
+											I wrote a Neural Network with 3 layers, a LSTM, Relu and Sigmod layers. The second and third layers have 64 and 32 nodes respectively. The Neural Network then outputs a binary value, buy or sell. <br><br>
+											Testing this Network of arbitrary number of layers and nodes, I acheived an accuracy of just above 50% on average. The results were far from satisfactory and the model was evidently overfitting.   
+										</p>
+									</div>
+									<div class="sideimage"> 
+										<img src="images/trainingss.png" alt="" />
+									</div>
+								</para>
+								<para>
+									<div class="sideimage">
+										<img src="images/neuralnetworkoutput.png" alt="" />
+									</div>
+									<div class="text">
+										<p>Overfitting, I read, could be solved by inputting more data or reducing the model complexity. Since I took the maximum daily data allowed by the yFinance API, I decided to reduce the model complexity instead. <br> <br>
+											Herein lies the question: what should be my ideal complexity? Instead of guessing, I decided to brute force an experiment. I set up a 2 dimensional loop, each loop testing the number of nodes for a layer. I then collated the accuracy of the models in a 2 dimensional array. 
+										</p>
+									</div>
+								</para>
+								<para>
+									<div class="text">
+										<p>Finally, I ended up with the best model of 3 node per layer, with a accuracy of 57%. <br><br>
+											Though the model was far from profitable, it took too long to run my program and I decided to put my project on pause till I upgrade my computer! 
+										</p>
+									</div>
+								</para>
+							
+								<footer>
+									<ul class="stats">
+										<li><a href="Skills.html">Python</a></li>
+										<li><a href="Skills.html">Tensorflow</a></li>
+									</ul>
+								</footer>
+							</article>
+
+
+						<!-- Post -->
+							<article class="post" id="Codeforces">
+								<header>
+									<div class="title">
+										<h2><a>Competing in CodeForces</a></h2>
+										<!-- <p>10 Winstedt Rd, Singapore 227977</p> -->
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2015-11-01">2022 - 2024</time>
+										<!-- <a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a> -->
+									</div>
+								</header>
+								<para>
+									<div class="text">
+										<p>I first heard of time complexity during my internship with DSO. Then, I learnt how using a different approach could allow me to solve the shortest vector in a shorter (polynomial) time than the naive algorithm with exponential time. <br><br>
+											There was something about trying different approaches and modifying current solutions that I cannot stop thinking about. When I found out that there was a website that allows me to do just that, I quickly registered. <br> <br>
+										</p>
+									</div>
+									<div class="sideimage"> 
+										<img src="images/dsographs.png" alt="" />
+									</div>
+								</para>
+								<para>
+									<div class="sideimage">
+										<img src="images/codeforcesfail.png" alt="" />
+									</div>
+									<div class="text">
+										<p>Initially, I wondered how hard competitive coding problems could really be. I tried the highest rated question I could find. Unsurprisingly, I spent a day with zero progress. <br><br>
+											I regressed through the question ratings, finally solving my first problem at 500 rating. <br><br>
+											Not satisfied with only solving the lowest rated questions, I decided to spend some times studying.									
+										</p>
+									</div>
+								</para>
+								<para>
+									<div class="text">
+										<p>I made use of ChatGPT to come up with a list of algorithms to study. Recursion, sliding window, two pointer, binary search and many more. <br><br>
+											When I finally felt ready after 3 months in recluse, I logged on to codeforces again. This time with appreciable improvement. 
+										</p>
+									</div>
+									<div class="sideimage"> 
+										<img src="images/practicingalgos.png" alt="" />
+									</div>
+								</para>
+								<para>
+									<div class="sideimage">
+										<img src="images/CodeForces.png" alt="" />
+									</div>
+									<div class="text">
+										<p>Eventually, I achieved a ranking of 950 while being able to solve 1500 rated questions. Though I am glad to have improved, I know I still have much to learn.<br><br>
+											I simply can't wait to learn more!								
+										</p>
+									</div>
+								</para>
+							
+								<footer>
+									<ul class="stats">
+										<li><a href="Skills.html">C++ Literacy</a></li>
+									</ul>
+								</footer>
+							</article>
+
+						<!-- Post -->
+							<article class="post" id="CDACExcel">
+								<header>
+									<div class="title">
+										<h2><a>Founding, Organizing and Developing Excel Workshop</a></h2>
+										<!-- <p>10 Winstedt Rd, Singapore 227977</p> -->
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2015-11-01">2018 - 2021</time>
+										<!-- <a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a> -->
+									</div>
+								</header>
+								<para>
+									<div class="text">
+										<p> Initially, part of a simple school presentation, my team and I were to come up with a way to give back to the community. Then, we thought that we could leverage on the Excel Skills we learnt in school to share the knowledge with other students who did not get the opportunity to learn Excel in school. <br> <br>
+											After completing the presentation, I realized that the plan was feasbile. I wrote in to the Chinese Development Assistance Council (CDAC) who quickly accepted my proposal.
+										</p>
+									</div>
+									<div class="sideimage"> 
+										<img src="images/cdaclogo.png" alt="" />
+									</div>
+								</para>
+								<para>
+									<div class="sideimage">
+										<img src="images/cdacresources.png" alt="" />
+									</div>
+									<div class="text">
+										<p>I gathered my presentation team back together and we were all pretty excited to embark on our little project. <br><br>
+											Over a period of 3 months, we produced presentation slides, lesson notes, practice Excel sheets and summary notes for our 5 days workshop. 								
+										</p>
+									</div>
+								</para>
+								<para>
+									<div class="text">
+										<p> The workshop was my first experience standing infront of a class and teaching. Something about that just seemed to get me. I wanted to conduct the workshop again. <br><br>
+											Though some team members came and went, we eventually conducted the workshop a total of 4 times. When our schedules could no longer accomodate the workshops, we recruited a group of students to carry on our legacy.
+										</p>
+									</div>
+									<div class="sideimage"> 
+										<img src="" alt="" />
+									</div>
+								</para>
+							
+								<footer>
+									<ul class="stats">
+										<li><a href="Skills.html">Excel Proficiency</a></li>
+									</ul>
+								</footer>
+							</article>
+
+
+						<!-- Post -->
+							<article class="post" id="DataSyncing">
+								<header>
+									<div class="title">
+										<h2><a>C++ Data Syncing Software turned Malware</a></h2>
+										<!-- <p>10 Winstedt Rd, Singapore 227977</p> -->
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2015-11-01">2021</time>
+										<!-- <a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a> -->
+									</div>
+								</header>
+								<para>
+									<div class="text">
+										<p>As part of a plan to improve my data storeage reliability and portability, I decided to write a C++ app using the Windows API that detects of a particular thumbdrive is plugged into the computer. The program then backs up the data from the thumbdrive to the computer's storage. <br><br>
+											To ensure program can run reliably, the C++ program register itself in the computer registry and thereby run on the startup of the computer. After implementing this feature, I noticed that my program could not run.
+										</p>
+									</div>
+									<div class="sideimage"> 
+										<img src="images/syncingevidence.png" alt="" />
+									</div>
+								</para>
+								<para>
+									<div class="sideimage">
+										<img src="" alt="" />
+									</div>
+									<div class="text">
+										<p> After afew hours, I realized that my program was not misprogrammed. Rather, it was the McAfee antivirus that was preventing my app from running, treating it as a trojan horse virus. <br><br>
+											The program was eventually successful, but I was even more impressed that my first personal project was recognised as a virus. 
+										</p>
+									</div>
+								</para>
+
+								<footer>
+									<ul class="stats">
+										<li><a href="Skills.html">C++ Proficiency</a></li>
+									</ul>
+								</footer>
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+				<!--
+					<section id="footer">
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon solid fa-rss"><span class="label">RSS</span></a></li>
+							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<p class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>. Images: <a href="http://unsplash.com">Unsplash</a>.</p>
+					</section>
+				-->
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
