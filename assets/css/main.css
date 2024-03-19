@@ -2596,6 +2596,7 @@ input, select, textarea {
 
 				ul.posts article .image img {
 					width: 100%;
+					max-width: 100%;
 				}
 
 			ul.posts article header {
@@ -2870,6 +2871,7 @@ input, select, textarea {
 				-webkit-transition: -webkit-transform 0.2s ease-out;
 				-ms-transition: -ms-transform 0.2s ease-out;
 				transition: transform 0.2s ease-out;
+				max-width: 100%;
 			}
 
 			.post > a.image.featured:hover img {
